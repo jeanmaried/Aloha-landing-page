@@ -1,0 +1,167 @@
+@media screen and (min-width: 1240px) {
+
+  	.banner{
+  		padding: 20% 0 20% 0;
+  	}
+
+ 	.font-h1{
+		font-size: 3.5rem;
+	}
+
+	.font-h2{
+		font-size: 3rem;
+	}
+
+
+	.image-fit{
+		background-size: cover;
+		height: 43.5vh;
+	}
+
+	.font-sizethree{
+		font-size: 2.2rem;
+	}
+
+
+	.subscribe_form {
+		width: 35%;
+		padding: .3rem .3rem .3rem 2.2rem;
+	}
+
+	.subscribe_button{
+		padding: .4rem;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+
+	.font-sizetwo{
+		font-size: 3.5rem
+	}	
+
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1239px){
+  	.banner{
+  		padding: 25% 0 25% 0;
+  	}
+
+  	.font-h1{
+		font-size: 3rem;
+	}
+
+	.font-h2{
+		font-size: 2.5rem;
+	}
+
+	.image-fit{
+		background-size: cover;
+		height: 41vh;
+	}
+
+	.cartnum{
+    	left: 2.3rem;
+    	bottom: 4rem;
+	}
+
+	.font-sizethree{
+		font-size: 2rem;
+	}
+
+	.subscribe_form {
+		width: 45%;
+		padding: .2rem .2rem .2rem 2.2rem;
+	}
+
+	.subscribe_button{
+		padding: .4rem;
+	}
+}
+
+@media screen and (min-width: 600px) {
+
+	.menu{
+		border-color: white;
+		max-width: 30%;
+	}
+
+	.cart{
+		order: 2;
+	}
+
+
+	.width3{
+		width: 100%;
+	}
+
+	.box{
+		width: 50%;
+	}
+
+	.box_flip{
+		flex-wrap: nowrap;
+	}
+
+	.men{
+		border-right: .50rem solid white;
+	}
+
+	.glasses{
+		border-bottom: .50rem solid white;
+	}
+
+	.women{
+		border-left: .50rem solid white;
+	}
+
+	.bxslider{
+		flex-direction: row;
+		align-items: baseline;
+	}
+
+	.clothes{
+		font-size: 1rem;
+		width: 35%;
+	}
+
+	.contact_info {
+		flex-direction: row;
+		text-align: left;
+	}
+
+	.column_social_media {
+		flex-direction: column;
+		margin-right: 1rem;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 999px){
+  	.banner{
+  		padding: 30% 0 30% 0;
+  	}
+
+// 	.image-fit{
+// 		background-size: cover;
+// 		height: 27vh;
+// 	}
+
+// 	.subscribe_form {
+// 		width: 45%;
+// 		padding: .2rem .2rem .2rem 2rem;
+// 	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 599px) {
+	.menu{
+  	    border-top: .1rem solid #d6d8db;
+  	}
+
+  	.banner{
+  		padding: 35% 0 35% 0;
+  	}
+
+	.social_media_name {
+  		display: none;
+  	}
+
+}

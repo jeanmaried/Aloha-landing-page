@@ -1,0 +1,84 @@
+@font-face{
+	font-family: playfair_bold;
+	src: url(../../assets/fonts/PlayfairDisplay-Bold.otf);
+}
+
+@font-face{
+	font-family: playfair_italic;
+	src: url(../../assets/fonts/PlayfairDisplay-Italic.otf);
+}
+
+@font-face{
+	font-family: playfair_regular;
+	src: url(../../assets/fonts/PlayfairDisplay-Regular.otf);
+}
+
+@font-face{
+	font-family: raleway_light;
+	src: url(../../assets/fonts/Raleway-Light.ttf);
+}
+
+@font-face{
+	font-family: raleway_medium;
+	src: url(../../assets/fonts/Raleway-Medium.ttf);
+}
+
+.playfair_bold{
+	font-family: playfair_bold;
+}
+
+.playfair_italic{
+	font-family: playfair_italic;
+}
+
+.playfair_regular{
+	font-family: playfair_regular;
+}
+
+.raleway_medium{
+	font-family: raleway_medium;
+}
+
+.raleway_light{
+	font-family: raleway_light;
+}
+
+.lighter {
+	font-weight: lighter;
+}
+
+.grey{
+	color: #8e8b8b;
+}
+
+.darkgrey {
+	color: #454547;
+}
+
+.white {
+	color:white;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.font-h1{
+	font-size: 2.5rem;
+}
+
+.font-h2{
+	font-size: 2rem;
+}
+
+.font-sizetwo{
+	font-size: 2rem;
+}
+
+.font-sizethree{
+	font-size: 1.5rem;
+}
+
+.red{
+	color: #f42e2e;
+}

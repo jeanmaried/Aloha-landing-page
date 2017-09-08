@@ -1,0 +1,168 @@
+$font-color-with-bg: white;
+$font-color-no-bg: black;
+$font-color-links: #f42e2e;
+$borders: #d6d8db;
+
+
+body {
+    font-size: 16px;
+
+    p,input,nav,ul,li,a{
+	    list-style: none;
+	    text-decoration: none;
+	    font-family: raleway_medium;
+	    border: none;
+	    line-height: 180%;
+	}
+
+	h1,h2,h3,h4,h5,h6 {
+    	font-family: playfair_regular;
+	}
+}
+
+//header
+
+.menu{
+	width: 100%;
+	padding: .5rem;
+	margin-right: .5rem;
+	margin-left: .5rem;
+
+	ul li a{
+		padding: 0 1rem 0 1rem;
+		color: $font-color-links;
+	}
+}
+
+.logo {
+	width: 18%;
+	max-width: 7rem;
+	padding: .5rem 0 .4rem .5rem;
+}
+
+.cart{
+	width: 6%;
+	max-width: 3.5rem;
+	padding: .5rem .5rem .4rem 0;
+}
+
+//banner
+
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),
+    	url(../../assets/images/banner-girl.png), url(../../assets/images/flower-bkgd.jpg);
+    background-size: cover, auto 90%;
+    background-repeat: repeat-x, no-repeat;
+    background-position: 50% ,center 150%;
+
+    h3{
+    	color: $font-color-with-bg;
+    	font-family: raleway_medium;
+    }
+    h1{
+    	@extend h3;
+    }
+}
+
+/*categories*/
+
+.men{
+	background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)),
+		url("../../assets/images/mens-category.jpg");
+	border-bottom: .50rem solid white;
+}
+
+.trends{
+	background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)),
+		url("../../assets/images/trends-category.jpg");
+	border-right: .50rem solid white;
+	border-bottom: .50rem solid white;
+}
+
+.glasses{
+	background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)),
+		url("../../assets/images/glasses-category.jpg");
+	border-bottom: .50rem solid white;
+}
+
+.sale{
+	background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)),
+		url("../../assets/images/sale-category.jpg");
+	border-right: .50rem solid white;
+	border-bottom: .50rem solid white;
+}
+
+.bags{
+	background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)),
+		url("../../assets/images/bags-category.jpg");
+	border-bottom: .50rem solid white;
+}
+
+.women{
+	background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)),
+		url("../../assets/images/womens-category.jpg");
+}
+
+.image-fit{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 29vh;
+}
+
+.atc{
+	background-color: $font-color-no-bg;
+	border-style: none;
+	border-radius: 1rem;
+	padding: .3rem .7rem .4rem .7rem;
+}
+
+/*Sign-ups section*/
+
+.waves_background {
+	background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)),
+		url("../../assets/images/wave-bkgd.jpg");
+	background-position: bottom;
+    padding: .5rem;
+}
+
+.subscribe_form {
+    border-radius: 2rem;
+    background-color: white;
+    color: white;
+    align-items: center;
+    padding: .2rem .3rem .2rem 1.5rem;
+    width: 85%;
+}
+
+.subscribe_button {
+    background-color: #ed3c21;
+    border-radius: 5rem;
+    color: white;
+    width: 35%;
+    padding: .5rem;
+}
+
+.subscribe_button:hover {
+	color: $font-color-no-bg;
+	transition: color .5s ease;
+}
+
+/*footer*/
+
+.contact_info {
+    background-color: #2d2a2a;
+    border-top: .5rem solid white;
+    padding: 0 2rem 3.5rem 1rem;
+}
+
+.social_media_logo {
+    width: 30%;
+}
+
+.social_media_name {
+    width: 5rem;
+}
+
+ul li{
+    color: white;
+}
