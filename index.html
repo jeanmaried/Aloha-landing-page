@@ -9,6 +9,7 @@
 
 <body>
 
+<!-- HEAD -->
     <header class="flex justify-between flex-wrap align-items-center">
         
         <div class="logo"><img src="assets/images/aloha-logo.svg"></div>
@@ -16,24 +17,26 @@
         <div class="cart">
             <img src="assets/images/cart-icon.svg">
         </div>
-
-        <nav class="menu flex justify-center align-items-center">
-            <ul class="flex">
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">SHOP</a></li>
-                <li><a href="#">FEATURED</a></li>
-                <li><a href="#">UPDATES</a></li>
-            </ul>
-        </nav>
     
     </header>
+
+<!-- MENU -->
+
+    <nav class="menu flex justify-center">
+        <ul class="flex">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SHOP</a></li>
+            <li><a href="#">FEATURED</a></li>
+            <li><a href="#">UPDATES</a></li>
+        </ul>
+    </nav>
   
-<!--Banner-->
+<!--BANNER-->
 
   <section class="banner flex direction-column align-items-center text-align">
 
       <h3>NEW COLLECTION</h3>
-      <h1 class="font-h1">Spring/Summer 2016</h1>
+      <h1 class="font-sizeh1">Spring/Summer 2017</h1>
 
   </section>
 
@@ -43,7 +46,7 @@
 
     <section class="flex direction-column align-items-center text-align">
 
-      <div><h2 class="font-h2 lighter"><span class="playfair_italic">Hand-Crafted</span> <span class="playfair_bold">Styles</span></h2></div>
+      <div><h2 class="font-sizeh2 lighter"><span class="playfair_italic">Hand-Crafted</span> <span class="playfair_bold">Styles</span></h2></div>
 
         <div class="flex align-items-center">
          <div>
@@ -55,34 +58,34 @@
 
 <!--Shopping-->
 
-    <section class="margin-two">
+    <section>
 <!--first box-->    
         <div class="flex flex-wrap box_flip">
 
-            <div class="men flex align-items-center justify-center text-align width image-fit box"><h4 class="white font-sizethree raleway_medium">MEN'S</h4></div>
+            <div class="men flex align-items-center justify-center text-align width image-fit box"><h1 class="white font-sizethree raleway_medium">MEN'S</h1></div>
 
             <div class="flex flex-row align-items-center justify-center text-align width box">
-                <div class="trends flex justify-center align-items-center width2 image-fit"><h4 class="white font-sizethree raleway_medium">TRENDS</h4></div>
-                <div class="glasses flex justify-center align-items-center width2 image-fit"><h4 class="white font-sizethree raleway_medium">GLASSES</h4></div>
+                <div class="trends flex justify-center align-items-center width2 image-fit"><h1 class="white font-sizethree raleway_medium">TRENDS</h1></div>
+                <div class="glasses flex justify-center align-items-center width2 image-fit"><h1 class="white font-sizethree raleway_medium">GLASSES</h1></div>
             </div>
 
         </div>
 <!--second box-->       
-        <div class="flex flex-wrap flex-column box_flip">
+        <div class="flex flex-wrap box_flip">
 
             <div class="flex flex-row align-items-center justify-center text-align width box">
-                <div class="sale flex justify-center align-items-center width2 image-fit"><h4 class="white font-sizethree raleway_medium">SALE</h4></div>
-                <div class="bags flex justify-center align-items-center width2 image-fit"><h4 class="white font-sizethree raleway_medium">BAGS</h4></div>
+                <div class="sale flex justify-center align-items-center width2 image-fit"><h1 class="white font-sizethree raleway_medium">SALE</h1></div>
+                <div class="bags flex justify-center align-items-center width2 image-fit"><h1 class="white font-sizethree raleway_medium">BAGS</h1></div>
             </div>
 
-            <div class="women flex width align-items-center justify-center text-align image-fit box"><h4 class="white font-sizethree raleway_medium">WOMEN'S</h4></div>
+            <div class="women flex width align-items-center justify-center text-align image-fit box"><h1 class="white font-sizethree raleway_medium">WOMEN'S</h1></div>
 
         </div>
      </section>
 
      <section>
 
-      <div class="flex justify-center align-items-center margin-two"><h2 class="font-h2 lighter"><span class="playfair_italic">Most Loved</span> <span class="playfair_bold">Products</span></h2></div>
+      <div class="flex justify-center align-items-center margin-two"><h2 class="font-sizeh2 lighter"><span class="playfair_italic">Most Loved</span> <span class="playfair_bold">Products</span></h2></div>
 
      <div>
 
@@ -112,7 +115,7 @@
             </li>
 
             <li class="clothes flex justify-center align-items-center direction-column text-align">
-                <img src="iassets/images/blue-hipster-backpack.jpg">
+                <img src="assets/images/blue-hipster-backpack.jpg">
                 <p class="margin-three">BAGS</p>
                 <h2 class="playfair_regular red margin-three">Blue Hipster Backpack</h2>
                 <p class="margin-three">$69.00</p>
@@ -220,14 +223,12 @@
 
 </body>
 
-<script type="text/javascript" src="script.js"></script>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <script src="jquery.bxslider/jquery.bxslider.min.js"></script>
 
-<script type="text/javascript" src="jquery.js"></script>
-
 <link href="jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
+
+<script type="text/javascript" src="dist/js/bundle.js"></script>
 
 </html>

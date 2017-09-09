@@ -4,18 +4,12 @@
   		padding: 20% 0 20% 0;
   	}
 
- 	.font-h1{
+ 	.font-sizeh1{
 		font-size: 3.5rem;
 	}
 
-	.font-h2{
+	.font-sizeh2{
 		font-size: 3rem;
-	}
-
-
-	.image-fit{
-		background-size: cover;
-		height: 43.5vh;
 	}
 
 	.font-sizethree{
@@ -46,17 +40,12 @@
   		padding: 25% 0 25% 0;
   	}
 
-  	.font-h1{
+  	.font-sizeh1{
 		font-size: 3rem;
 	}
 
-	.font-h2{
+	.font-sizeh2{
 		font-size: 2.5rem;
-	}
-
-	.image-fit{
-		background-size: cover;
-		height: 41vh;
 	}
 
 	.cartnum{
@@ -81,14 +70,13 @@
 @media screen and (min-width: 600px) {
 
 	.menu{
-		border-color: white;
-		max-width: 30%;
+		position: absolute;
+		top: .7rem;
 	}
 
-	.cart{
-		order: 2;
+	.cloned{
+		background-color: rgba(0,0,0,0.6);
 	}
-
 
 	.width3{
 		width: 100%;
@@ -140,11 +128,6 @@
   		padding: 30% 0 30% 0;
   	}
 
-// 	.image-fit{
-// 		background-size: cover;
-// 		height: 27vh;
-// 	}
-
 // 	.subscribe_form {
 // 		width: 45%;
 // 		padding: .2rem .2rem .2rem 2rem;
@@ -152,16 +135,34 @@
 }
 
 @media screen and (min-width: 0px) and (max-width: 599px) {
-	.menu{
-  	    border-top: .1rem solid #d6d8db;
+
+  	.menu{
+  		position: absolute;
+  		background-color: rgba(0,0,0,0.6);
+  		ul li a{
+  			opacity: 1;
+  		}
   	}
 
   	.banner{
-  		padding: 35% 0 35% 0;
+  		padding: 45% 0 45% 0;
   	}
+
+  	.font-sizeh1{
+		font-size: 2rem;
+	}
+
+
+	.font-sizeh2{
+		font-size: 1.5rem;
+	}
 
 	.social_media_name {
   		display: none;
+  	}
+
+  	.women{
+  		border-top: .50rem solid white;
   	}
 
 }

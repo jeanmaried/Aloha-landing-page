@@ -1,10 +1,70 @@
-var addCart= document.getElementsByClassName("atc");
-var cartNum= document.getElementById("cart-num");
-for (var i= 0; i<addCart.length; i++){
- addCart[i].onclick = function(){
-   var orgVal=cartNum.innerHTML;
-   cartNum.innerHTML = parseInt(orgVal) +1;
-   document.getElementById("cart-total-hide").setAttribute('style','visibility:visible');
-   document.getElementById("price-total-hide").setAttribute('style','visibility:visible');
-	}
+$(document).ready(function(){
+
+var width =$(window).width();
+
+  if (width < 600) {
+    $('.slider').bxSlider({
+    maxSlides:1,
+    minSlides:1,
+    slideWidth: 450
+    });
+  }
+  else if (width < 1000){
+    $('.slider').bxSlider({
+    maxSlides:2,
+    minSlides:2,
+    slideWidth: 450
+    });
+  }
+  else {
+    $('.slider').bxSlider({
+    maxSlides:4,
+    minSlides:4,
+    slideWidth: 450
+    });
+  };
+
+  $(window).on('resize',function(){
+   if (width > 0) {  
+     location.reload();
+   }
+ });
+})
+
+//sticky menu
+
+// Create a clone of the menu, right next to original.
+$('.menu').addClass('original').clone().insertAfter('.menu').addClass('cloned').css('position','fixed')
+.css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
+
+scrollIntervalID = setInterval(stickIt, 10);
+
+
+function stickIt() {
+
+  var orgElementPos = $('.original').offset();
+  orgElementTop = orgElementPos.top;               
+
+  if ($(window).scrollTop() >= (orgElementTop)) {
+    // scrolled past the original position; now only show the cloned, sticky element.
+
+    // Cloned element should always have same left position and width as original element.     
+    orgElement = $('.original');
+    coordsOrgElement = orgElement.offset();
+    leftOrgElement = coordsOrgElement.left;  
+    widthOrgElement = orgElement.css('width');
+    $('.cloned').css('left',leftOrgElement+'px').css('top',0).css('width',widthOrgElement).show();
+    $('.original').css('visibility','hidden');
+  } else {
+    // not scrolled past the menu; only show the original menu.
+    $('.cloned').hide();
+    $('.original').css('visibility','visible');
+  }
 }
+
+
+function myFunction(){
+  console.log('Your mom')
+};
+
+myFunction();
