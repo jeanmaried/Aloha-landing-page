@@ -18,7 +18,7 @@ var OUTPUT_DIR = "./dist/js";
 var OUTPUT_FILE = "bundle.js";
 var DELAY = 50;
 
-var sassFiles = './comp/scss/*.scss';
+var sassFiles = './comp/scss/style.scss';
 var cssDest = './dist/css/';
 
 gulp.task("watch", function () {
@@ -47,7 +47,7 @@ gulp.task('styles', function(){
 });
 
 gulp.task("watchCSS", function(){  
-    gulp.watch('./comp/scss/*.scss', ['styles']);
+    gulp.watch('./comp/scss/style.scss', ['styles']);
 });
 
 gulp.task("serve", function () {

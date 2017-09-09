@@ -59,10 +59,4 @@ function stickIt() {
   }
 }
 
-function myFunction() {
-  console.log('Your mom');
-};
-
-myFunction();
-
 },{}]},{},[1]);

@@ -51,16 +51,8 @@
 	color: #8e8b8b;
 }
 
-.darkgrey {
-	color: #454547;
-}
-
 .white {
 	color:white;
-}
-
-.underline {
-	text-decoration: underline;
 }
 
 .font-sizeh1{
@@ -71,14 +63,6 @@
 	font-size: 2rem;
 }
 
-.font-sizetwo{
-	font-size: 2rem;
-}
-
-.font-sizethree{
-	font-size: 1.5rem;
-}
-
 .red{
-	color: #f42e2e;
+	color: $font-colorful;
 }
