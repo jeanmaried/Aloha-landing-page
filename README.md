@@ -4,7 +4,7 @@ Aloha Shopping
 Landing Page
 ------------
  
-###The purpose of this project
+### The purpose of this project
 
 To display my skills with front end technologies such as:
 
@@ -20,7 +20,7 @@ To display my skills with front end technologies such as:
 
 The site is fully designed to be responsive.
 
-###Instructions
+### Instructions
 
 In order to transpile the Javascript and Sass, you need to run the gulpfile using npm in the terminal.
 
