@@ -1,106 +1,113 @@
 @media screen and (min-width: 1240px) {
-
-  	.banner{
-  		padding: 20% 0 20% 0;
-  	}
-
- 	.font-sizeh1{
-		font-size: 3.5rem;
+	
+		  .banner{
+			  padding: 20% 0 20% 0;
+		  }
+	
+		 .font-sizeh1{
+			font-size: 3.5rem;
+		}
+	
+		.font-sizeh2{
+			font-size: 3rem;
+		}
+	
+		.font-size-p{
+			font-size: 1.6rem;
+		}
+	
 	}
-
-	.font-sizeh2{
-		font-size: 3rem;
+	
+	@media screen and (min-width: 1000px) and (max-width: 1239px){
+		  .banner{
+			  padding: 25% 0 25% 0;
+		  }
+	
+		  .font-sizeh1{
+			font-size: 3rem;
+		}
+	
+		.font-sizeh2{
+			font-size: 2.5rem;
+		}
+	
+		.font-size-p{
+			font-size: 1.4rem;
+		}
+	
 	}
-
-	.font-size-p{
-		font-size: 1.6rem;
+	
+	@media screen and (min-width: 600px) and (max-width: 999px){
+		  .banner{
+			  padding: 30% 0 30% 0;
+		  }
+	
 	}
-
-}
-
-@media screen and (min-width: 1000px) and (max-width: 1239px){
-  	.banner{
-  		padding: 25% 0 25% 0;
-  	}
-
-  	.font-sizeh1{
-		font-size: 3rem;
+	
+	@media screen and (min-width: 600px) {
+	
+		.menu{
+			position: absolute;
+			top: .7rem;
+		}
+	
+		.cloned{
+			background-color: rgba(0,0,0,0.6);
+		}
+	
+		.box_flip{
+			-ms-flex-wrap: nowrap;
+				flex-wrap: nowrap;
+		}
+	
+		.men{
+			border-right: .50rem solid white;
+		}
+	
+		.glasses{
+			border-bottom: .50rem solid white;
+		}
+	
+		.women{
+			border-left: .50rem solid white;
+		}
+	
+		.contact_info {
+			-webkit-box-orient: horizontal;
+			-webkit-box-direction: normal;
+				-ms-flex-direction: row;
+					flex-direction: row;
+			text-align: left;
+		}
+	
+		.column_social_media {
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+				-ms-flex-direction: column;
+					flex-direction: column;
+		}
 	}
-
-	.font-sizeh2{
-		font-size: 2.5rem;
+	
+	@media screen and (max-width: 599px) {
+	
+		  .menu{
+			  position: absolute;
+			  background-color: rgba(0,0,0,0.6);
+			  ul li a{
+				  opacity: 1;
+			  }
+		  }
+	
+		  .banner{
+			  padding: 45% 0 45% 0;
+		  }
+	
+		.social_media_name {
+			  display: none;
+		  }
+	
+		  .women{
+			  border-top: .50rem solid white;
+		  }
+	
 	}
-
-	.font-size-p{
-		font-size: 1.4rem;
-	}
-
-}
-
-@media screen and (min-width: 600px) and (max-width: 999px){
-  	.banner{
-  		padding: 30% 0 30% 0;
-  	}
-
-}
-
-@media screen and (min-width: 600px) {
-
-	.menu{
-		position: absolute;
-		top: .7rem;
-	}
-
-	.cloned{
-		background-color: rgba(0,0,0,0.6);
-	}
-
-	.box_flip{
-		flex-wrap: nowrap;
-	}
-
-	.men{
-		border-right: .50rem solid white;
-	}
-
-	.glasses{
-		border-bottom: .50rem solid white;
-	}
-
-	.women{
-		border-left: .50rem solid white;
-	}
-
-	.contact_info {
-		flex-direction: row;
-		text-align: left;
-	}
-
-	.column_social_media {
-		flex-direction: column;
-	}
-}
-
-@media screen and (min-width: 0px) and (max-width: 599px) {
-
-  	.menu{
-  		position: absolute;
-  		background-color: rgba(0,0,0,0.6);
-  		ul li a{
-  			opacity: 1;
-  		}
-  	}
-
-  	.banner{
-  		padding: 45% 0 45% 0;
-  	}
-
-	.social_media_name {
-  		display: none;
-  	}
-
-  	.women{
-  		border-top: .50rem solid white;
-  	}
-
-}
