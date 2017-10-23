@@ -1,10 +1,10 @@
 @media screen and (min-width: 1240px) {
 	
-		  .banner{
-			  padding: 20% 0 20% 0;
-		  }
-	
-		 .font-sizeh1{
+		.banner{
+			padding: 20% 0 20% 0;
+		}
+
+		.font-sizeh1{
 			font-size: 3.5rem;
 		}
 	
@@ -15,15 +15,19 @@
 		.font-size-p{
 			font-size: 1.6rem;
 		}
+
+		.carousel-cell{
+			width: 25%
+		}
 	
 	}
 	
 	@media screen and (min-width: 1000px) and (max-width: 1239px){
-		  .banner{
-			  padding: 25% 0 25% 0;
-		  }
-	
-		  .font-sizeh1{
+		.banner{
+			padding: 25% 0 25% 0;
+		}
+
+		.font-sizeh1{
 			font-size: 3rem;
 		}
 	
@@ -34,13 +38,21 @@
 		.font-size-p{
 			font-size: 1.4rem;
 		}
+
+		.carousel-cell{
+			width: 33.33%
+		}
 	
 	}
 	
 	@media screen and (min-width: 600px) and (max-width: 999px){
-		  .banner{
-			  padding: 30% 0 30% 0;
-		  }
+		.banner{
+			padding: 30% 0 30% 0;
+		}
+
+		.carousel-cell{
+			width: 50%
+		}
 	
 	}
 	
@@ -89,25 +101,25 @@
 	}
 	
 	@media screen and (max-width: 599px) {
-	
-		  .menu{
-			  position: absolute;
-			  background-color: rgba(0,0,0,0.6);
-			  ul li a{
-				  opacity: 1;
-			  }
-		  }
-	
-		  .banner{
-			  padding: 45% 0 45% 0;
-		  }
-	
+
+		.menu{
+			position: absolute;
+			background-color: rgba(0,0,0,0.6);
+			ul li a{
+				opacity: 1;
+			}
+		}
+
+		.banner{
+			padding: 45% 0 45% 0;
+		}
+
 		.social_media_name {
-			  display: none;
-		  }
-	
-		  .women{
-			  border-top: .50rem solid white;
-		  }
+			display: none;
+		}
+
+		.women{
+			border-top: .50rem solid white;
+		}
 	
 	}
